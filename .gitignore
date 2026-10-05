@@ -2,6 +2,3 @@
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
-
-# Exclude 2-regression folder (to be included next week)
-2-regression/
