@@ -46,7 +46,15 @@ ml-zoomcamp2026/
 │   ├── ML Zoomcamp Homework 1.ipynb
 │   ├── homework-1-intro.md
 │   └── README.md
-├── 📄 .gitignore              # Git ignore rules (excluding scratch & 2-regression draft)
+├── 📁 2-regression/           # Module 2: Linear Regression, Feature Engineering & Regularization
+│   ├── ML Zoomcamp Homework 2.ipynb
+│   └── homework2.md
+├── 📁 3-classification/       # Module 3: Churn Prediction, Logistic Regression & Evaluation
+│   ├── classification-course.ipynb
+│   └── 📁 homework/
+│       ├── homework-wk3.ipynb
+│       └── ml-homework-wk3.md
+├── 📄 .gitignore              # Git ignore rules
 └── 📄 README.md               # Main course & repository documentation
 ```
 
@@ -96,8 +104,8 @@ jupyter notebook
 | Module | Topic | Technologies & Concepts | Status |
 | :--- | :--- | :--- | :---: |
 | **01** | [Introduction to Machine Learning](./1-intro/) | CRISP-DM, NumPy, Pandas, Linear Algebra | ✅ Completed |
-| **02** | Machine Learning for Regression | Linear Regression, Normal Equation, Regularization | 🔄 In Progress |
-| **03** | Machine Learning for Classification | Logistic Regression, Categorical Encoding, Metrics | ⏳ Upcoming |
+| **02** | [Machine Learning for Regression](./2-regression/) | Linear Regression, Normal Equation, Regularization | ✅ Completed |
+| **03** | [Machine Learning for Classification](./3-classification/) | Logistic Regression, Categorical Encoding, Metrics | ✅ Completed |
 | **04** | Evaluation Metrics & Hyperparameter Tuning | Precision/Recall, ROC-AUC, K-Fold Cross Validation | ⏳ Upcoming |
 | **05** | Deploying Machine Learning Models | Web Services, Flask/FastAPI, Docker, Pipenv | ⏳ Upcoming |
 | **06** | Decision Trees & Ensemble Learning | Decision Trees, Random Forest, XGBoost | ⏳ Upcoming |
