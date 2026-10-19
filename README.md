@@ -50,10 +50,14 @@ ml-zoomcamp2026/
 │   ├── ML Zoomcamp Homework 2.ipynb
 │   └── homework2.md
 ├── 📁 3-classification/       # Module 3: Churn Prediction, Logistic Regression & Evaluation
-│   ├── classification-course.ipynb
+│   ├── classification-course_wk3-4.ipynb
+│   ├── README.md              # Step-by-step Supervised ML Methodology & Checklist
 │   └── 📁 homework/
 │       ├── homework-wk3.ipynb
 │       └── ml-homework-wk3.md
+├── 📁 4-evaluation/           # Module 4: Evaluation Metrics, ROC-AUC, Precision/Recall & Cross-Validation
+│   ├── homework-wk4.ipynb
+│   └── homework-wk4.md
 ├── 📄 .gitignore              # Git ignore rules
 └── 📄 README.md               # Main course & repository documentation
 ```
@@ -106,7 +110,7 @@ jupyter notebook
 | **01** | [Introduction to Machine Learning](./1-intro/) | CRISP-DM, NumPy, Pandas, Linear Algebra | ✅ Completed |
 | **02** | [Machine Learning for Regression](./2-regression/) | Linear Regression, Normal Equation, Regularization | ✅ Completed |
 | **03** | [Machine Learning for Classification](./3-classification/) | Logistic Regression, Categorical Encoding, Metrics | ✅ Completed |
-| **04** | Evaluation Metrics & Hyperparameter Tuning | Precision/Recall, ROC-AUC, K-Fold Cross Validation | ⏳ Upcoming |
+| **04** | [Evaluation Metrics & Hyperparameter Tuning](./4-evaluation/) | Precision/Recall, ROC-AUC, K-Fold Cross Validation | ✅ Completed |
 | **05** | Deploying Machine Learning Models | Web Services, Flask/FastAPI, Docker, Pipenv | ⏳ Upcoming |
 | **06** | Decision Trees & Ensemble Learning | Decision Trees, Random Forest, XGBoost | ⏳ Upcoming |
 | **07** | Midterm Project | End-to-End ML Project & Deployment | ⏳ Upcoming |
@@ -135,5 +139,6 @@ jupyter notebook
 
 ## 👤 Author
 
+* **Name**: Sandra BONIFACE
 * **GitHub**: [@SPBONIFACE](https://github.com/SPBONIFACE)
 * **Cohort**: Machine Learning Zoomcamp 2026
