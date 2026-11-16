@@ -77,8 +77,11 @@ flowchart LR
 The model is trained on the real-world **USAID Supply Chain Management System (SCMS) Delivery History Dataset** (`10,324` transactions across `33` attributes).
 
 ### Target Variable Definition
-$$\text{delivery\_delay\_days} = \text{Delivered to Client Date} - \text{Scheduled Delivery Date}$$
-$$\text{is\_late} = \mathbb{I}(\text{delivery\_delay\_days} > 0)$$
+
+```text
+delivery_delay_days = Delivered to Client Date - Scheduled Delivery Date
+is_late = 1 if delivery_delay_days > 0 else 0
+```
 
 - **On-Time / Early ($\le 0$ days):** `9,138` shipments (**88.51%**)
 - **Late Delivery ($> 0$ days):** `1,186` shipments (**11.49%**) — realistic operational class imbalance.
