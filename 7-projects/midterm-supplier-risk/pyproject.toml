@@ -1,0 +1,20 @@
+[project]
+name = "supplier-sla-risk-prediction"
+version = "1.0.0"
+description = "Order-Time Supplier SLA Delivery Risk Engine - ML Zoomcamp Midterm Project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2.0",
+    "numpy>=2.0.0",
+    "scikit-learn>=1.5.0",
+    "xgboost>=2.1.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "pydantic>=2.9.0",
+    "requests>=2.32.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

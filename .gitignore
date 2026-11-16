@@ -2,3 +2,9 @@
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+.venv/
+*.tmp
+
+# Course internal guidance docs
+project-roadmap.md
+missing_value_playbook.md

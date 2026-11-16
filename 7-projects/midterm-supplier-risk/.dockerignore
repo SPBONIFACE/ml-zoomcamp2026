@@ -1,0 +1,9 @@
+data/
+notebook*.ipynb
+*.tmp
+__pycache__/
+.git/
+.venv/
+.github/
+SPEC.md
+EOF
